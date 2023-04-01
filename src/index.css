@@ -3,7 +3,7 @@
 * {
 	font-family: 'Edu NSW ACT Foundation', cursive;
 	font-weight: 400;
-    font-size: 24px;
+    font-size: 1.2rem;
 	margin: 0;
 	box-sizing: border-box;
 }
@@ -63,6 +63,7 @@ code {
 }
 
 .footer {
+    border-top: 2px solid white;
 }
 
 .footer-social-icon {
@@ -80,4 +81,30 @@ code {
 	flex: 1;
 	display: flex;
 	align-items: center;
+}
+ 
+.home-bg-img-div {
+    background-image: url(./resources/images/home-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: none!important;
+}
+
+.footer-text {
+    font-size: 1rem;
+}
+
+.home-journals-btn {
+    font-size: 1.5rem;
+}
+
+.about-img {
+    width: 20rem;
+    object-fit: cover;
+}
+
+.journal-entry-bg-div {
+    background-image: url(./resources/images/paper.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }

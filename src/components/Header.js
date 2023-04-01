@@ -3,7 +3,6 @@ import { Container, Navbar, Nav } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 
 const Header = ({ title }) => {
-    console.log(title)
 	return (
 		<Container className='header m-0 p-0 w-100 mw-100 d-flex flex-row text-align-center'>
 			<Navbar className='w-100 p-4' bg='dark' variant='dark' expand='sm'>
