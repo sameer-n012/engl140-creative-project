@@ -1,25 +1,23 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
 import { useNavigate, useParams } from 'react-router-dom';
-import {getJournals} from '../resources/getJournals.js';
+import { getJournals } from '../resources/getJournals.js';
 import ErrorText from '../components/ErrorText.js';
 
 const Journal = () => {
 	const navigate = useNavigate();
 
-    const journals = getJournals();
+	const journals = getJournals();
 
 	const viewJournal = (id) => {
 		navigate(`/journals/${id}`);
 	};
 
-    
-
 	return (
 		<>
 			<Container className='main flex-column pb-3 pt-3'>
-                <h2 className='m-3 text-light'>Journal Entries</h2>
-                {/* TODO : make title */}
+				<h2 className='m-3 text-light'>Raymond Rambert's Journal Entries</h2>
+				{/* TODO : make title */}
 				{journals && journals.length === 0 ? (
 					<ErrorText text={'Sorry, there are no journals here.'} showButton={true} />
 				) : !journals ? (
@@ -29,17 +27,22 @@ const Journal = () => {
 						<Container className='d-flex justify-content-evenly flex-column mt-2'>
 							{journals.map((j) => (
 								<Row key={j._id}>
-									<Container className='bg-light text-dark blog-container mt-3 mb-3'>
-										<Container className='d-flex align-items-center mt-3'>
-											<h3 className='me-3 cursor-clickable' onClick={() => viewJournal(j._id)}>
-												{j.title}
+									<Container
+										className='bg-light rounded text-dark blog-container mt-3 mb-3 cursor-clickable'
+										onClick={() => viewJournal(j._id)}
+									>
+										<Container className='d-flex align-items-center mt-3 mb-3'>
+											<h3
+												className='m-0 me-3'
+											>
+												{j._id + 1} : {j.title}
 											</h3>
-											<h3> | </h3>
+											<h3 className='m-0'> | </h3>
 											<p className='m-0 ms-3'>{j.date}</p>
 										</Container>
-										<hr />
+										{/* <hr />
 
-										<p className='text-left'>{j.featuredBody + '...'}</p>
+										<p className='text-left'>{j.featuredBody + '...'}</p> */}
 									</Container>
 								</Row>
 							))}

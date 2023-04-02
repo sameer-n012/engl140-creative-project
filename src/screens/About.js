@@ -1,11 +1,29 @@
-import React from 'react'
-import { Container, Col } from 'react-bootstrap'
-import { projectDetails } from '../resources/projectDetails.js'
-import ErrorText from '../components/ErrorText.js'
+import React from 'react';
+import { Container, Col } from 'react-bootstrap';
+import { projectDetails } from '../resources/projectDetails.js';
+import ErrorText from '../components/ErrorText.js';
+import { useState, useEffect } from 'react';
 
 const About = () => {
-  return (
-    <Container className='main'>
+	const [aboutBody, setAboutBody] = useState('');
+
+	const fetchText = fetch(require(`../resources/journals/about.md`))
+		.then((r) => r.text())
+		.then((text) => {
+			return text;
+		});
+
+	useEffect(() => {
+		const getText = async () => {
+			const text = await fetchText;
+			setAboutBody(text);
+		};
+
+		getText();
+	}, [fetchText]);
+
+	return (
+		<Container className='main'>
 			{!projectDetails ? (
 				<ErrorText showButton={true} />
 			) : (
@@ -17,7 +35,7 @@ const About = () => {
 						<h2>About This Project</h2>
 						<p>
 							&emsp;&emsp;&emsp;
-							{projectDetails.aboutText}
+							{aboutBody}
 						</p>
 					</Col>
 					<Col className='w-50 d-flex justify-content-center text-align-start'>
@@ -30,7 +48,7 @@ const About = () => {
 				</Container>
 			)}
 		</Container>
-  )
-}
+	);
+};
 
-export default About
+export default About;

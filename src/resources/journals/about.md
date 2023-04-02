@@ -1,0 +1,1 @@
+A short collection of journal entries by Raymond Rambert, set in the city of Oran, Algeria during the events of Albert Camus' novel, The Plague.

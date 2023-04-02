@@ -10,7 +10,6 @@ const JournalDetails = () => {
 	const navigate = useNavigate();
 
 	const journal = getJournalById(useParams()['id']);
-	console.log(journal);
 
 	const [journalBody, setJournalBody] = useState('');
 
