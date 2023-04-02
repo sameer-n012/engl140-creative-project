@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/engl140-creative-project/static/css/main.9a895ab1.css",
-    "main.js": "/engl140-creative-project/static/js/main.c2a7d1d7.js",
+    "main.css": "/engl140-creative-project/static/css/main.ab1e669c.css",
+    "main.js": "/engl140-creative-project/static/js/main.51ae6616.js",
     "static/media/paper.png": "/engl140-creative-project/static/media/paper.5688163f874feebf256e.png",
     "static/media/book-cover.png": "/engl140-creative-project/static/media/book-cover.b5703368ef70a77ee3ca.png",
     "static/media/home-bg.jpg": "/engl140-creative-project/static/media/home-bg.978c711ea353869725cc.jpg",
@@ -22,11 +22,11 @@
     "static/media/j0.md": "/engl140-creative-project/static/media/j0.f1ed6b336922232b0e6f.md",
     "static/media/j12.md": "/engl140-creative-project/static/media/j12.1987ebb1da3f438c19b5.md",
     "static/media/j9.md": "/engl140-creative-project/static/media/j9.6a943de203877c31a4bf.md",
-    "main.9a895ab1.css.map": "/engl140-creative-project/static/css/main.9a895ab1.css.map",
-    "main.c2a7d1d7.js.map": "/engl140-creative-project/static/js/main.c2a7d1d7.js.map"
+    "main.ab1e669c.css.map": "/engl140-creative-project/static/css/main.ab1e669c.css.map",
+    "main.51ae6616.js.map": "/engl140-creative-project/static/js/main.51ae6616.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a895ab1.css",
-    "static/js/main.c2a7d1d7.js"
+    "static/css/main.ab1e669c.css",
+    "static/js/main.51ae6616.js"
   ]
 }
