@@ -15,7 +15,6 @@ const Home = () => {
 						className='ms-auto me-auto btn home-journals-btn'
 					>
 						View Journals
-                        {/* TODO: change text */}
 					</Button>
 				</div>
 			</Container>

@@ -12,7 +12,7 @@ import { projectDetails } from './resources/projectDetails.js';
 function App() {
 	return (
 		<div className='App bg-dark'>
-			<BrowserRouter>
+			<HashRouter>
 				<Header title={projectDetails.title} />
 				<Routes>
 					<Route path='/' element={<Home />} exact />
@@ -23,7 +23,7 @@ function App() {
 					<Route path='*' element={<NotFound />} exact />
 				</Routes>
 				<Footer />
-			</BrowserRouter>
+			</HashRouter>
 		</div>
 	);
 }

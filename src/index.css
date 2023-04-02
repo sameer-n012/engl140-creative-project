@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
 
 * {
-	font-family: 'Edu NSW ACT Foundation', cursive;
+	/* font-family: 'Edu NSW ACT Foundation', cursive; */
+    font-family: 'Neucha', cursive;
 	font-weight: 400;
     font-size: 1.2rem;
 	margin: 0;
@@ -99,8 +101,10 @@ code {
 }
 
 .about-img {
-    width: 20rem;
-    object-fit: cover;
+    /* width: 25rem; */
+    max-width: 75%;
+    /* object-fit: cover; */
+    object-fit: contain;
 }
 
 .journal-entry-bg-div {

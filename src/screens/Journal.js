@@ -17,7 +17,6 @@ const Journal = () => {
 		<>
 			<Container className='main flex-column pb-3 pt-3'>
 				<h2 className='m-3 text-light'>Raymond Rambert's Journal Entries</h2>
-				{/* TODO : make title */}
 				{journals && journals.length === 0 ? (
 					<ErrorText text={'Sorry, there are no journals here.'} showButton={true} />
 				) : !journals ? (
