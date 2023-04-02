@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
-import { useNavigate, useParams } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { getJournals } from '../resources/getJournals.js';
 import ErrorText from '../components/ErrorText.js';
 
