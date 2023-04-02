@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { Container, Button } from 'react-bootstrap';
 import { getJournalById } from '../resources/getJournals.js';
 import ErrorText from '../components/ErrorText.js';
+import ReactMarkdown from 'react-markdown';
 
 const JournalDetails = () => {
 	const navigate = useNavigate();
@@ -44,25 +45,25 @@ const JournalDetails = () => {
 						<Container className='journal-entry-bg-div pt-5 pb-5'>
 							<Container
 								style={{ borderBottom: '2px solid black' }}
-								className='text-dark ms-4 pb-2 m-2 w-75 align-items-center'
+								className='text-dark ms-4 pb-2 ps-5 pe-5 m-2 w-90 align-items-center'
 							>
 								<Container className='d-flex align-items-center'>
 									<h1 className='me-3'>{journal.title}</h1>
 									<h2> | </h2>
-									<p className='m-0 ms-3'>{journal.date}</p>
+									<p className='m-0 ms-3 semibold-text'>{journal.date}</p>
 								</Container>
 							</Container>
 							<Container
-								className='text-dark mt-4 ms-4 w-75 ps-5 pe-5'
+								className='text-dark mt-4 ms-4 w-90 ps-5 pe-5'
 								style={{ lineHeight: '2.5' }}
 							>
-								<p
+								<ReactMarkdown
 									disallowedElements={['h1', 'h2']}
 									linkTarget={'_blank'}
-									className='journal-body-text'
+									className='journal-body-text semibold-text'
 								>
 									{journalBody ? journalBody : ''}
-								</p>
+								</ReactMarkdown>
 							</Container>
 						</Container>
 					</Container>
