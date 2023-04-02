@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/engl140-creative-project/static/css/main.9a895ab1.css",
+    "main.js": "/engl140-creative-project/static/js/main.7d45385f.js",
+    "static/media/paper.png": "/engl140-creative-project/static/media/paper.5688163f874feebf256e.png",
+    "static/media/book-cover.png": "/engl140-creative-project/static/media/book-cover.b5703368ef70a77ee3ca.png",
+    "static/media/home-bg.jpg": "/engl140-creative-project/static/media/home-bg.978c711ea353869725cc.jpg",
+    "static/media/j6.md": "/engl140-creative-project/static/media/j6.5bc5ab48e9d1c622f654.md",
+    "static/media/j1.md": "/engl140-creative-project/static/media/j1.86e12efb4e51695c14f2.md",
+    "static/media/j11.md": "/engl140-creative-project/static/media/j11.78e2f2d9926c9a3a8cf7.md",
+    "static/media/j10.md": "/engl140-creative-project/static/media/j10.b54d6561d9c5100fb588.md",
+    "static/media/j4.md": "/engl140-creative-project/static/media/j4.875c9d377aca4727983d.md",
+    "static/media/j13.md": "/engl140-creative-project/static/media/j13.3332d7710c5502e8ec80.md",
+    "static/media/j14.md": "/engl140-creative-project/static/media/j14.1311050ba0c679ac524a.md",
+    "static/media/j5.md": "/engl140-creative-project/static/media/j5.fcba88e6e72c3c372fad.md",
+    "static/media/j3.md": "/engl140-creative-project/static/media/j3.b4bbc44eba1a62604da8.md",
+    "static/media/j7.md": "/engl140-creative-project/static/media/j7.02a0139b4ae0cc55bc8d.md",
+    "static/media/j2.md": "/engl140-creative-project/static/media/j2.907383f2964584b3708f.md",
+    "static/media/j8.md": "/engl140-creative-project/static/media/j8.e77c507b76241ca76e01.md",
+    "static/media/about.md": "/engl140-creative-project/static/media/about.4f233b59a09447975890.md",
+    "index.html": "/engl140-creative-project/index.html",
+    "static/media/j0.md": "/engl140-creative-project/static/media/j0.f1ed6b336922232b0e6f.md",
+    "static/media/j12.md": "/engl140-creative-project/static/media/j12.1987ebb1da3f438c19b5.md",
+    "static/media/j9.md": "/engl140-creative-project/static/media/j9.6a943de203877c31a4bf.md",
+    "main.9a895ab1.css.map": "/engl140-creative-project/static/css/main.9a895ab1.css.map",
+    "main.7d45385f.js.map": "/engl140-creative-project/static/js/main.7d45385f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a895ab1.css",
+    "static/js/main.7d45385f.js"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "short_name": "ENGL140-Proj",
+  "name": "ENGL 140 Creative Project",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
